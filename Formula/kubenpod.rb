@@ -5,12 +5,12 @@
 class Kubenpod < Formula
   desc "kubenpod does something"
   homepage "https://github.com/ehok/kubenpod"
-  version "0.0.5"
+  version "1.0.0"
   license "apache-2.0"
 
   on_macos do
-    url "https://github.com/ehok/kubenpod/releases/download/v0.0.5/kubenpod_0.0.5_darwin_amd64.tar.gz"
-    sha256 "938353e6729d8e1d4916ef5b55e62a8c47a9404b8625d1c1d6237d65d7865044"
+    url "https://github.com/ehok/kubenpod/releases/download/v1.0.0/kubenpod_1.0.0_darwin_amd64.tar.gz"
+    sha256 "a25279a749008b1b2171c3f378f015dc70ec5f0f9db98cab7918e9fcd1fe1451"
 
     def install
       bin.install "kubenpod"
@@ -30,8 +30,8 @@ class Kubenpod < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ehok/kubenpod/releases/download/v0.0.5/kubenpod_0.0.5_linux_amd64.tar.gz"
-        sha256 "37d5f26c3db7cebd0132a8a4d8851cad00d5f09b20ec6fb13abea26553158618"
+        url "https://github.com/ehok/kubenpod/releases/download/v1.0.0/kubenpod_1.0.0_linux_amd64.tar.gz"
+        sha256 "a8a2d78e630e2720187566f050f3e684fbf658b6e85cc30800c2a07a69ee9346"
 
         def install
           bin.install "kubenpod"
