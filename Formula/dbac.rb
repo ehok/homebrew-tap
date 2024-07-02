@@ -5,12 +5,12 @@
 class Dbac < Formula
   desc "dbac :)"
   homepage "https://github.com/ehok/dbac"
-  version "1.0.5"
+  version "1.1.0"
   license "apache-2.0"
 
   on_macos do
-    url "https://github.com/ehok/dbac/releases/download/v1.0.5/dbac_1.0.5_darwin_amd64.tar.gz"
-    sha256 "be15293319b397970aaff452293c6cf28233c372629a5b72f9ce903c411f3e42"
+    url "https://github.com/ehok/dbac/releases/download/v1.1.0/dbac_1.1.0_darwin_amd64.tar.gz"
+    sha256 "60df8723d6d7713a13a8751fb308e0c8f86438c7e0cf510dcbeb565107585727"
 
     def install
       bin.install "dbac"
@@ -30,8 +30,8 @@ class Dbac < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ehok/dbac/releases/download/v1.0.5/dbac_1.0.5_linux_amd64.tar.gz"
-        sha256 "832cdc3277d58c91afffc28d7c66fc370cd3813289635f0f07b9a86e3d947612"
+        url "https://github.com/ehok/dbac/releases/download/v1.1.0/dbac_1.1.0_linux_amd64.tar.gz"
+        sha256 "ee71a929a733699d9d376600cec50d264caae5bd6226b41fc18fc9e6828d2d1c"
 
         def install
           bin.install "dbac"
